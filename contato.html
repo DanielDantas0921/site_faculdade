@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <style>
+        #texto{
+            width: 300px;
+            height: 300px;
+            display: block;
+        }
+    
+
+
+    </style>
+</head>
+<body>
+
+    <header id="inicio">
+        <h1>HTML <sup>Linguagem de Marcação de Hipertexto</sup></h1>
+        <h3>Tutorial para Iniciantes</h3>
+  
+  
+  
+      </header>
+
+    <nav>
+        <ul id="navegacao">
+          <li class="primeiro">
+            <a href="index.html">Inicio</a>
+          </li>
+          <li>
+            <a href="index.html">HTML</a>
+          </li>
+          <li>
+            <a href="index.html">Tabela</a>
+          </li>
+          <li>
+            <a href="index.html">Sobre Css, HTML e JS</a>
+          </li>
+          <li>
+            <a href="#rodape">Rodapé</a>
+          </li>
+        </ul>
+        <div style="clear:both"></div>
+        <br>
+      </nav>
+
+    <section id="formulario">
+
+        <form action="obrigado.html" >
+            <label for="Nome" >Nome:</label><br>
+           <input type="text"   required name="nome"> <br>
+            <label for="Email">Email</label> <br>
+           <input type="email" required name="email"> <br>
+           <label for="assunto">Assunto</label>
+           <select name="assunto"  >
+               <option value="sugestao">Sugestão</option>
+               <option value="critica">Crítica</option>
+               <option value="elogio" selected>Elogio</option>
+   
+           </select> <br>
+            <label for="mensagem">Mensagem:</label><br>
+           <textarea  id="text-area"  required name="mensagem"  cols="30" rows="10"></textarea> <br><input type="checkbox" name="Termo" required>
+           <label>Concordo com os Termos de Privacidade do Site</label> <br>
+           <input type="submit" name="enviar" value="Enviar">  
+           
+   
+       </form>
+
+    </section>
+    
+
+
+    <footer id="rodape">Daniel Brandão Copyright 2022 - 2023</footer>
+
+</body>
+</html>
